@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
+::selection{
+    color: #bae09d;
+    background-color: #cb490f;
+}
 
 body{
     position: relative;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(19deg, #B721FF, #21D4FD);  
+    background-color: #caf5ad; 
     background-repeat: no-repeat;  
     background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
 }
 section{
     display: flex;
@@ -19,8 +26,9 @@ section{
     flex-direction: column;
     width: 40vw;
     height: 80vh;
-    background-color: white;
-    border-radius: 5px;
+    background-color: #f3f3e6;
+    color: #201e1e;
+    border-radius: 10px;
     margin: 25px auto;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
 }
@@ -28,4 +36,25 @@ section{
     position: relative;
     align-items: center;
     justify-content: center;
+    padding:10px;
+    font-size: 3vh;
+    font-weight: lighter;
+    background-color: #d74c0e;
+    width: 100%;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.checkbox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #201e1e;
+    padding: 5px;
+    width: 100%;
+    color: #f3f3e6;
+    gap: 10vh;
+    font-weight: 100;
+    font-size: 10px;
 }
