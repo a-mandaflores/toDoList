@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(19deg, #B721FF, #21D4FD);  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 5px;
+    margin: 25px auto;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+}
+.topo{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
