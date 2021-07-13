@@ -8,7 +8,7 @@
 }
 ::selection{
     color: #bae09d;
-    background-color: #cb490f;
+    background-color: #201e1e;
 }
 
 body{
@@ -17,6 +17,7 @@ body{
     background-repeat: no-repeat;  
     background-attachment: fixed;
     font-family: 'Inter', sans-serif;
+    text-transform:initial;
 }
 section{
     display: flex;
@@ -34,13 +35,12 @@ section{
     position: relative;
     padding:10px;
     font-size: 3vh;
-    font-weight: lighter;
     background-color: #d74c0e;
     width: 100%;
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    text-align: left;
+    text-align: center;
 }
 .checkbox{
     position: relative;
@@ -55,9 +55,14 @@ section{
     gap: 29vh;
     font-weight: 300;
     font-size: 10px;
+    transition: 0.2s all ease;
+}
+.checkbox:hover{
+    background-color: #9fe971;
 }
 
-.checkbox .x{    
+.checkbox .x{  
+    font-weight: 600;  
     border-radius: 2px;
     padding: 3px;
     margin: 0.5px;
@@ -74,3 +79,21 @@ section{
     color: #f7f8f6;
 
 }
+
+.checkbox > input[type="checkbox"]:checked + div{
+    color: #d74c0e;
+    text-decoration: line-through;
+}
+.text{
+    font-size: 2vh;
+    color: #f7f8f6;
+    background-color: #575555;
+    display: flex;
+    padding: 8px;
+    width: 83vh;
+    margin: 2px auto;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
