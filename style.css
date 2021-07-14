@@ -48,30 +48,38 @@ section{
     align-items: center;
     background-color: #c5f7a5;
     padding: 5px;
-    width: 95%;
+    width: 40vh;
     margin: 5px;
     border-radius: 10px;
     color: #201e1e;
     gap: 29vh;
     font-weight: 300;
     font-size: 10px;
+    text-align: left;
     transition: 0.2s all ease;
+}
+.checkbox-text {
+    position: absolute;
+    left: 5vh;
+    
 }
 .checkbox:hover{
     background-color: #9fe971;
 }
 
 .checkbox .x{  
+    position: absolute;
     font-weight: 600;  
     border-radius: 2px;
     padding: 3px;
     margin: 0.5px;
-    width: 15px;
+    width: 20px;
     font-size: 9px;
     color: #d74c0e;
     background-color: #f7f8f6;
-    align-items: center;
+    align-items: right;
     text-align: center;
+    right: 10px;
     transition: 0.3s all ease;
 }
 .checkbox .x:hover{
@@ -88,12 +96,20 @@ section{
     font-size: 2vh;
     color: #f7f8f6;
     background-color: #575555;
+    position: relative;
     display: flex;
     padding: 8px;
-    width: 83vh;
+    width: 40vh;
     margin: 2px auto;
     border-radius: 10px;
     outline: none;
     
 }
+@media scream and (min-width: 375px 800px) and (max-width: 500px){
+    .container-text{
+        background: violet;
+        
+    }
+}
+
 
